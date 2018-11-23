@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+**/.vscode/*
+**/.vs/*
+**/packages/*
+**/bin/*
+**/obj/*
+*.suo
+*.user
+*.vspscc
+/Assemblies
+*.mdf
+**/.idea/*
+*.cache
+*.ncrunchsolution
+*.dbmdl
+*.jfm
+**/node_modules/*
+**/dist/*
+/phsom-web-client/.scannerwork
+/phsom-server/.sonarlint
+/phsom-identity-server/Phsom.Idp/logs
+/phsom-identity-server/.sonarlint
+*.DS_Store

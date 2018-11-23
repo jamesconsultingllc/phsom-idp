@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phsom.Api", "Phsom.Api\Phsom.Api.csproj", "{57594F13-93B7-43AD-AC62-5759C3DF6320}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phsom.Api.Tests", "Phsom.Api.Tests\Phsom.Api.Tests.csproj", "{9A8C9992-0B03-414B-8095-05F658E03BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57594F13-93B7-43AD-AC62-5759C3DF6320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57594F13-93B7-43AD-AC62-5759C3DF6320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57594F13-93B7-43AD-AC62-5759C3DF6320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57594F13-93B7-43AD-AC62-5759C3DF6320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8C9992-0B03-414B-8095-05F658E03BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8C9992-0B03-414B-8095-05F658E03BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8C9992-0B03-414B-8095-05F658E03BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8C9992-0B03-414B-8095-05F658E03BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A319FAF1-146E-4A3A-8651-373E17A8A441}
+	EndGlobalSection
+EndGlobal
