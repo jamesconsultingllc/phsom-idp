@@ -1,0 +1,2116 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\rudyj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+infoinfo: IdentityServer4.Startup[0]
+      You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+: IdentityServer4.Startup[0]
+      You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+Hosting environment: Development
+Content root path: D:\phsom\phsom-identity-server\Phsom.Idp
+Now listening on: http://127.0.0.1:7650
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/  
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp)
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) - Validation state: Valid
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5171ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5171ms.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 90.0637ms.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 90.0637ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) in 115.2422ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) in 115.2422ms
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 271.6959ms 200 text/html; charset=utf-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 271.6959ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.jpg  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /css/site.css was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /icon.jpg was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /lib/bootstrap/js/bootstrap.js was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /css/site.css was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /icon.jpg was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /lib/bootstrap/js/bootstrap.js was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /icon.png was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /lib/bootstrap/css/bootstrap.css was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /icon.png was not modified
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /lib/bootstrap/css/bootstrap.css was not modified
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 24.9634ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.5119ms 304 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.006ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.5119ms 304 image/png
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.7877ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 12.4008ms 304 image/jpeg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 24.9634ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.006ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13.7877ms 304 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 12.4008ms 304 image/jpeg
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 57.0834ms 200 application/javascript
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 57.0834ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warnwarn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 64.9487ms 200 application/json; charset=UTF-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 64.9487ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "e5f6f61aa1c94db48e85446e97cda8c9",
+        "Nonce": "07b81adf65324f6795a01b65db5a5910",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "e5f6f61aa1c94db48e85446e97cda8c9",
+          "nonce": "07b81adf65324f6795a01b65db5a5910"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "e5f6f61aa1c94db48e85446e97cda8c9",
+        "Nonce": "07b81adf65324f6795a01b65db5a5910",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "e5f6f61aa1c94db48e85446e97cda8c9",
+          "nonce": "07b81adf65324f6795a01b65db5a5910"
+        }
+      }
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 104.7896ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 104.7896ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3De5f6f61aa1c94db48e85446e97cda8c9%26nonce%3D07b81adf65324f6795a01b65db5a5910  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3De5f6f61aa1c94db48e85446e97cda8c9%26nonce%3D07b81adf65324f6795a01b65db5a5910  
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910) - Validation state: Valid
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 20.5728ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 20.5728ms.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 70.1659ms.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 70.1659ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 111.9617ms
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 111.9617ms
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 133.6341ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 133.6341ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3De5f6f61aa1c94db48e85446e97cda8c9%26nonce%3D07b81adf65324f6795a01b65db5a5910 application/x-www-form-urlencoded 546
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3De5f6f61aa1c94db48e85446e97cda8c9%26nonce%3D07b81adf65324f6795a01b65db5a5910 application/x-www-form-urlencoded 546
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 34.0095ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 34.0095ms.
+infoinfo: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910.
+: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 61.074ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 61.074ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 69.1801ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 69.1801ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=e5f6f61aa1c94db48e85446e97cda8c9&nonce=07b81adf65324f6795a01b65db5a5910  
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "e5f6f61aa1c94db48e85446e97cda8c9",
+        "Nonce": "07b81adf65324f6795a01b65db5a5910",
+        "SessionId": "4cf38c2f68410c5b3577e746394320a5",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "e5f6f61aa1c94db48e85446e97cda8c9",
+          "nonce": "07b81adf65324f6795a01b65db5a5910"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "e5f6f61aa1c94db48e85446e97cda8c9",
+        "Nonce": "07b81adf65324f6795a01b65db5a5910",
+        "SessionId": "4cf38c2f68410c5b3577e746394320a5",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "e5f6f61aa1c94db48e85446e97cda8c9",
+          "nonce": "07b81adf65324f6795a01b65db5a5910"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "e5f6f61aa1c94db48e85446e97cda8c9",
+        "Scope": "openid profile roles"
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "e5f6f61aa1c94db48e85446e97cda8c9",
+        "Scope": "openid profile roles"
+      }
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 136.4763ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 136.4763ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+infoinfo: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.4825ms 200 application/json; charset=UTF-8
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.4825ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=32c438ba131f41169a5d26346982a9bf&nonce=a44af6df95b449c79841d38fcc3a4b3c  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=32c438ba131f41169a5d26346982a9bf&nonce=a44af6df95b449c79841d38fcc3a4b3c  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "32c438ba131f41169a5d26346982a9bf",
+        "Nonce": "a44af6df95b449c79841d38fcc3a4b3c",
+        "SessionId": "4cf38c2f68410c5b3577e746394320a5",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "32c438ba131f41169a5d26346982a9bf",
+          "nonce": "a44af6df95b449c79841d38fcc3a4b3c"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "32c438ba131f41169a5d26346982a9bf",
+        "Nonce": "a44af6df95b449c79841d38fcc3a4b3c",
+        "SessionId": "4cf38c2f68410c5b3577e746394320a5",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "32c438ba131f41169a5d26346982a9bf",
+          "nonce": "a44af6df95b449c79841d38fcc3a4b3c"
+        }
+      }
+infoinfo: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "32c438ba131f41169a5d26346982a9bf",
+        "Scope": "openid profile roles"
+      }
+: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "32c438ba131f41169a5d26346982a9bf",
+        "Scope": "openid profile roles"
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.0876ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.0876ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.082ms 200 application/json; charset=UTF-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.082ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19.0228ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19.0228ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.8434ms 200 text/html; charset=UTF-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.8434ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzA3MzUsImV4cCI6MTU0MTczMTAzNSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJhNDRhZjZkZjk1YjQ0OWM3OTg0MWQzOGZjYzNhNGIzYyIsImlhdCI6MTU0MTczMDczNSwic2lkIjoiNGNmMzhjMmY2ODQxMGM1YjM1NzdlNzQ2Mzk0MzIwYTUiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzA3MTYsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.mGKqlMpxt0W69g-sKhsj3o-egDjm4ntn36CzR7v1KDZvhMo1eQ3lGu4t-j54KpKGP-8aU5zo5RNXYYdLYIDX3ep2BPfM_OIM8M1xtk0BkUIeimTYZ93ELVtjeMBcWuLgmeUOEB7fZYiuOc88ej65bLC_Ti9ikXmI-UN_EhBNcKzqtnYRGi_PLTeZwJKNkVau6x6hAmsqviS5QMOzPQXKWIOXzvXpWUF2aggERU4Jb1jW-Jx3W4b9mKAqhGvsVOo8SV9yQHMDpaoC-fz7FD8Tvcz3hxKIwnkwmOSqe2hVhW4XtsbJ8HTJoLplqfFxRlfgkaDPSOhanjLK84nVK6n3Kg&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzA3MzUsImV4cCI6MTU0MTczMTAzNSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJhNDRhZjZkZjk1YjQ0OWM3OTg0MWQzOGZjYzNhNGIzYyIsImlhdCI6MTU0MTczMDczNSwic2lkIjoiNGNmMzhjMmY2ODQxMGM1YjM1NzdlNzQ2Mzk0MzIwYTUiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzA3MTYsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.mGKqlMpxt0W69g-sKhsj3o-egDjm4ntn36CzR7v1KDZvhMo1eQ3lGu4t-j54KpKGP-8aU5zo5RNXYYdLYIDX3ep2BPfM_OIM8M1xtk0BkUIeimTYZ93ELVtjeMBcWuLgmeUOEB7fZYiuOc88ej65bLC_Ti9ikXmI-UN_EhBNcKzqtnYRGi_PLTeZwJKNkVau6x6hAmsqviS5QMOzPQXKWIOXzvXpWUF2aggERU4Jb1jW-Jx3W4b9mKAqhGvsVOo8SV9yQHMDpaoC-fz7FD8Tvcz3hxKIwnkwmOSqe2hVhW4XtsbJ8HTJoLplqfFxRlfgkaDPSOhanjLK84nVK6n3Kg&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Validation.EndSessionRequestValidator[0]
+      End session request validation success
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "PostLogOutUri": "https://localhost:4200",
+        "Raw": {
+          "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzA3MzUsImV4cCI6MTU0MTczMTAzNSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJhNDRhZjZkZjk1YjQ0OWM3OTg0MWQzOGZjYzNhNGIzYyIsImlhdCI6MTU0MTczMDczNSwic2lkIjoiNGNmMzhjMmY2ODQxMGM1YjM1NzdlNzQ2Mzk0MzIwYTUiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzA3MTYsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.mGKqlMpxt0W69g-sKhsj3o-egDjm4ntn36CzR7v1KDZvhMo1eQ3lGu4t-j54KpKGP-8aU5zo5RNXYYdLYIDX3ep2BPfM_OIM8M1xtk0BkUIeimTYZ93ELVtjeMBcWuLgmeUOEB7fZYiuOc88ej65bLC_Ti9ikXmI-UN_EhBNcKzqtnYRGi_PLTeZwJKNkVau6x6hAmsqviS5QMOzPQXKWIOXzvXpWUF2aggERU4Jb1jW-Jx3W4b9mKAqhGvsVOo8SV9yQHMDpaoC-fz7FD8Tvcz3hxKIwnkwmOSqe2hVhW4XtsbJ8HTJoLplqfFxRlfgkaDPSOhanjLK84nVK6n3Kg",
+          "post_logout_redirect_uri": "https://localhost:4200"
+        }
+      }
+info: IdentityServer4.Validation.EndSessionRequestValidator[0]
+      End session request validation success
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "PostLogOutUri": "https://localhost:4200",
+        "Raw": {
+          "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzA3MzUsImV4cCI6MTU0MTczMTAzNSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJhNDRhZjZkZjk1YjQ0OWM3OTg0MWQzOGZjYzNhNGIzYyIsImlhdCI6MTU0MTczMDczNSwic2lkIjoiNGNmMzhjMmY2ODQxMGM1YjM1NzdlNzQ2Mzk0MzIwYTUiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzA3MTYsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.mGKqlMpxt0W69g-sKhsj3o-egDjm4ntn36CzR7v1KDZvhMo1eQ3lGu4t-j54KpKGP-8aU5zo5RNXYYdLYIDX3ep2BPfM_OIM8M1xtk0BkUIeimTYZ93ELVtjeMBcWuLgmeUOEB7fZYiuOc88ej65bLC_Ti9ikXmI-UN_EhBNcKzqtnYRGi_PLTeZwJKNkVau6x6hAmsqviS5QMOzPQXKWIOXzvXpWUF2aggERU4Jb1jW-Jx3W4b9mKAqhGvsVOo8SV9yQHMDpaoC-fz7FD8Tvcz3hxKIwnkwmOSqe2hVhW4XtsbJ8HTJoLplqfFxRlfgkaDPSOhanjLK84nVK6n3Kg",
+          "post_logout_redirect_uri": "https://localhost:4200"
+        }
+      }
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 95.3649ms 302 
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 95.3649ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/logout?logoutId=CfDJ8Oyc7tcWDLtHvp8emdmz6_9RxkXNoT6dnRvCBBRTo8D4kXrYzekscwawi19wPnS3Hs2yXLhQCl35szaFHa4EVs_hkbFgIVlGEY4uJCiDKPShzWul1TxzJcxerhzNlLoio7UO92ibvcuSq3-fpv27Mn28K8WD4Gl2YNkGsSttL1-2f6XtdnLHWe6p1Je2-E5pZf74T-XFAuBOdwT8fDUkm2WThBgc9e0FjtSRgL9q3Kp_pHTF_PnOPGeYwbEJOGwj6m9bWEd7WCe-KSJdILq_YOo-UxA-ZK9nS5TDjIhFmX5Zno3UibgHDhTFM81YLyjZpmHeMzv_kK0fVmErnEwOzSsUzhbDVUN_e4d7qLJ6fzmvikMgLTG6_LgX9bI2js2Vlt0adNmMAVnjiHQulgh573WWuiywpDH7mA8eXup3qr3VBTjrj4XXatqdBDLJsg4g9Ru3v-x-Qz9Au7wWFuG-yikg96wCGxc07gB22N1iLgY7Z7HI-Dp1zxgeYemABsoEUw  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/logout?logoutId=CfDJ8Oyc7tcWDLtHvp8emdmz6_9RxkXNoT6dnRvCBBRTo8D4kXrYzekscwawi19wPnS3Hs2yXLhQCl35szaFHa4EVs_hkbFgIVlGEY4uJCiDKPShzWul1TxzJcxerhzNlLoio7UO92ibvcuSq3-fpv27Mn28K8WD4Gl2YNkGsSttL1-2f6XtdnLHWe6p1Je2-E5pZf74T-XFAuBOdwT8fDUkm2WThBgc9e0FjtSRgL9q3Kp_pHTF_PnOPGeYwbEJOGwj6m9bWEd7WCe-KSJdILq_YOo-UxA-ZK9nS5TDjIhFmX5Zno3UibgHDhTFM81YLyjZpmHeMzv_kK0fVmErnEwOzSsUzhbDVUN_e4d7qLJ6fzmvikMgLTG6_LgX9bI2js2Vlt0adNmMAVnjiHQulgh573WWuiywpDH7mA8eXup3qr3VBTjrj4XXatqdBDLJsg4g9Ru3v-x-Qz9Au7wWFuG-yikg96wCGxc07gB22N1iLgY7Z7HI-Dp1zxgeYemABsoEUw  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Logout", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Logout", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_9RxkXNoT6dnRvCBBRTo8D4kXrYzekscwawi19wPnS3Hs2yXLhQCl35szaFHa4EVs_hkbFgIVlGEY4uJCiDKPShzWul1TxzJcxerhzNlLoio7UO92ibvcuSq3-fpv27Mn28K8WD4Gl2YNkGsSttL1-2f6XtdnLHWe6p1Je2-E5pZf74T-XFAuBOdwT8fDUkm2WThBgc9e0FjtSRgL9q3Kp_pHTF_PnOPGeYwbEJOGwj6m9bWEd7WCe-KSJdILq_YOo-UxA-ZK9nS5TDjIhFmX5Zno3UibgHDhTFM81YLyjZpmHeMzv_kK0fVmErnEwOzSsUzhbDVUN_e4d7qLJ6fzmvikMgLTG6_LgX9bI2js2Vlt0adNmMAVnjiHQulgh573WWuiywpDH7mA8eXup3qr3VBTjrj4XXatqdBDLJsg4g9Ru3v-x-Qz9Au7wWFuG-yikg96wCGxc07gB22N1iLgY7Z7HI-Dp1zxgeYemABsoEUw) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_9RxkXNoT6dnRvCBBRTo8D4kXrYzekscwawi19wPnS3Hs2yXLhQCl35szaFHa4EVs_hkbFgIVlGEY4uJCiDKPShzWul1TxzJcxerhzNlLoio7UO92ibvcuSq3-fpv27Mn28K8WD4Gl2YNkGsSttL1-2f6XtdnLHWe6p1Je2-E5pZf74T-XFAuBOdwT8fDUkm2WThBgc9e0FjtSRgL9q3Kp_pHTF_PnOPGeYwbEJOGwj6m9bWEd7WCe-KSJdILq_YOo-UxA-ZK9nS5TDjIhFmX5Zno3UibgHDhTFM81YLyjZpmHeMzv_kK0fVmErnEwOzSsUzhbDVUN_e4d7qLJ6fzmvikMgLTG6_LgX9bI2js2Vlt0adNmMAVnjiHQulgh573WWuiywpDH7mA8eXup3qr3VBTjrj4XXatqdBDLJsg4g9Ru3v-x-Qz9Au7wWFuG-yikg96wCGxc07gB22N1iLgY7Z7HI-Dp1zxgeYemABsoEUw) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+      AuthenticationScheme: idsrv signed out.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+      AuthenticationScheme: idsrv signed out.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 32.6404ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 32.6404ms.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view LoggedOut.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view LoggedOut.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view LoggedOut executed in 12.8001ms.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view LoggedOut executed in 12.8001ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) in 45.8442ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) in 45.8442ms
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 50.9466ms 200 text/html; charset=utf-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 50.9466ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.6313ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3494ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.6313ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3494ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.087ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.087ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.0393ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.0393ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/js/signout-redirect.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/js/signout-redirect.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession/callback?endSessionId=CfDJ8Oyc7tcWDLtHvp8emdmz6_-tLY4FKSQteiaVe3JvN_QJ-8CazzWS7SbCncs2Yatiq1iUatyWGy3Do73rZ2hQG0OGwCL3gomUr-vHiDT3a40pY9ED84g7YGP3kqnpD4a3MYhSIyE9jNCd6qMJopEHVgJIWQG4c0ETLj3y9TvZigTc89ecABWSjTnEoWxgTIxA5dqSVADw8J6o8gCPczdiL7nTsc_yw8cKb8pqYVDkMjdXEwE3KtxdhtlWwUa8RRFAvp27tewEXCPgQZBKxKUXtSlbQA6CSh0jLVpUfJrt5jOBNY04pviVdlE4WEKmtmdQRB494sUDmkVlPvqCyXgKE-Y  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession/callback?endSessionId=CfDJ8Oyc7tcWDLtHvp8emdmz6_-tLY4FKSQteiaVe3JvN_QJ-8CazzWS7SbCncs2Yatiq1iUatyWGy3Do73rZ2hQG0OGwCL3gomUr-vHiDT3a40pY9ED84g7YGP3kqnpD4a3MYhSIyE9jNCd6qMJopEHVgJIWQG4c0ETLj3y9TvZigTc89ecABWSjTnEoWxgTIxA5dqSVADw8J6o8gCPczdiL7nTsc_yw8cKb8pqYVDkMjdXEwE3KtxdhtlWwUa8RRFAvp27tewEXCPgQZBKxKUXtSlbQA6CSh0jLVpUfJrt5jOBNY04pviVdlE4WEKmtmdQRB494sUDmkVlPvqCyXgKE-Y  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.115ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.115ms 200 application/javascript
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/signout-redirect.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\js\signout-redirect.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 33.0394ms 200 application/javascript
+info: IdentityServer4.Endpoints.EndSessionCallbackEndpoint[0]
+      Successful signout callback.
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/signout-redirect.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\js\signout-redirect.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 33.0394ms 200 application/javascript
+info: IdentityServer4.Endpoints.EndSessionCallbackEndpoint[0]
+      Successful signout callback.
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 38.1794ms 200 text/html; charset=UTF-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 38.1794ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 26.2605ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 26.2605ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+infowarn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+infowarn: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.9417ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.9417ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "30cea242e8fb465d98bc8f12c84be32c",
+        "Nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "30cea242e8fb465d98bc8f12c84be32c",
+          "nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3"
+        }
+      }
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "30cea242e8fb465d98bc8f12c84be32c",
+        "Nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "30cea242e8fb465d98bc8f12c84be32c",
+          "nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3"
+        }
+      }
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.7441ms 302 
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.7441ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D30cea242e8fb465d98bc8f12c84be32c%26nonce%3Dd0d5d11b89d342ba96eb6ee9125bdcf3  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D30cea242e8fb465d98bc8f12c84be32c%26nonce%3Dd0d5d11b89d342ba96eb6ee9125bdcf3  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.376ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.376ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 3.9709ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 4.612ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.1544ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 3.9709ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 4.612ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.1544ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.94ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.01ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.5921ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.725ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.94ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.01ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.5921ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.725ms 200 image/png
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.3091ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.3091ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 16.7534ms 200 text/plain
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 16.7534ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D30cea242e8fb465d98bc8f12c84be32c%26nonce%3Dd0d5d11b89d342ba96eb6ee9125bdcf3 application/x-www-form-urlencoded 546
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D30cea242e8fb465d98bc8f12c84be32c%26nonce%3Dd0d5d11b89d342ba96eb6ee9125bdcf3 application/x-www-form-urlencoded 546
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6327ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6327ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.965ms
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.965ms
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.5689ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.5689ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=30cea242e8fb465d98bc8f12c84be32c&nonce=d0d5d11b89d342ba96eb6ee9125bdcf3  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "30cea242e8fb465d98bc8f12c84be32c",
+        "Nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3",
+        "SessionId": "44dbf92b01543d0da232ab0526c510c9",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "30cea242e8fb465d98bc8f12c84be32c",
+          "nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "30cea242e8fb465d98bc8f12c84be32c",
+        "Nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3",
+        "SessionId": "44dbf92b01543d0da232ab0526c510c9",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "30cea242e8fb465d98bc8f12c84be32c",
+          "nonce": "d0d5d11b89d342ba96eb6ee9125bdcf3"
+        }
+      }
+infoinfo: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "30cea242e8fb465d98bc8f12c84be32c",
+        "Scope": "openid profile roles"
+      }
+: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "30cea242e8fb465d98bc8f12c84be32c",
+        "Scope": "openid profile roles"
+      }
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.7436ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.7436ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.3702ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.3702ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3634ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3634ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.684ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.684ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM3NzAsImV4cCI6MTU0MTczNDA3MCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJkMGQ1ZDExYjg5ZDM0MmJhOTZlYjZlZTkxMjViZGNmMyIsImlhdCI6MTU0MTczMzc3MCwic2lkIjoiNDRkYmY5MmIwMTU0M2QwZGEyMzJhYjA1MjZjNTEwYzkiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM3NzAsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.Wblf_ODSImK_YuAq2TY2Dogeyn-qJpVaGV_lA9lzND6ugGB93xmRx3l9lfoCIWvt9MPkhtws6xw_fIq2H0m0mhPbvm_Ia-_Red6y31G9GZWGUYOrlKPHC3KXUKXjFTu841P33oxVLTzOgz4Tg9cCTBwS24A_stmcY-pujcDyJ8Ex_cpdjKTwj9ZOO51l10GPuNnYvl3Q8zPwgYAlE20lx3CvKWdzQmbLaWG0nTgrXHV1ZW8e6Yf5ZQgeQcJ-AwnoDsZu9o04FDKqa5wukiFA3GC2KC_g7S3skXqfO6L8b8L0tPhr1Kbqczjd7YLQdBAIUAIDfSF8L-30arCx5yIYag&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM3NzAsImV4cCI6MTU0MTczNDA3MCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJkMGQ1ZDExYjg5ZDM0MmJhOTZlYjZlZTkxMjViZGNmMyIsImlhdCI6MTU0MTczMzc3MCwic2lkIjoiNDRkYmY5MmIwMTU0M2QwZGEyMzJhYjA1MjZjNTEwYzkiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM3NzAsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.Wblf_ODSImK_YuAq2TY2Dogeyn-qJpVaGV_lA9lzND6ugGB93xmRx3l9lfoCIWvt9MPkhtws6xw_fIq2H0m0mhPbvm_Ia-_Red6y31G9GZWGUYOrlKPHC3KXUKXjFTu841P33oxVLTzOgz4Tg9cCTBwS24A_stmcY-pujcDyJ8Ex_cpdjKTwj9ZOO51l10GPuNnYvl3Q8zPwgYAlE20lx3CvKWdzQmbLaWG0nTgrXHV1ZW8e6Yf5ZQgeQcJ-AwnoDsZu9o04FDKqa5wukiFA3GC2KC_g7S3skXqfO6L8b8L0tPhr1Kbqczjd7YLQdBAIUAIDfSF8L-30arCx5yIYag&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Validation.EndSessionRequestValidator[0]
+      End session request validation success
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "PostLogOutUri": "https://localhost:4200",
+        "Raw": {
+          "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM3NzAsImV4cCI6MTU0MTczNDA3MCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJkMGQ1ZDExYjg5ZDM0MmJhOTZlYjZlZTkxMjViZGNmMyIsImlhdCI6MTU0MTczMzc3MCwic2lkIjoiNDRkYmY5MmIwMTU0M2QwZGEyMzJhYjA1MjZjNTEwYzkiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM3NzAsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.Wblf_ODSImK_YuAq2TY2Dogeyn-qJpVaGV_lA9lzND6ugGB93xmRx3l9lfoCIWvt9MPkhtws6xw_fIq2H0m0mhPbvm_Ia-_Red6y31G9GZWGUYOrlKPHC3KXUKXjFTu841P33oxVLTzOgz4Tg9cCTBwS24A_stmcY-pujcDyJ8Ex_cpdjKTwj9ZOO51l10GPuNnYvl3Q8zPwgYAlE20lx3CvKWdzQmbLaWG0nTgrXHV1ZW8e6Yf5ZQgeQcJ-AwnoDsZu9o04FDKqa5wukiFA3GC2KC_g7S3skXqfO6L8b8L0tPhr1Kbqczjd7YLQdBAIUAIDfSF8L-30arCx5yIYag",
+          "post_logout_redirect_uri": "https://localhost:4200"
+        }
+      }
+info: IdentityServer4.Validation.EndSessionRequestValidator[0]
+      End session request validation success
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "PostLogOutUri": "https://localhost:4200",
+        "Raw": {
+          "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM3NzAsImV4cCI6MTU0MTczNDA3MCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJkMGQ1ZDExYjg5ZDM0MmJhOTZlYjZlZTkxMjViZGNmMyIsImlhdCI6MTU0MTczMzc3MCwic2lkIjoiNDRkYmY5MmIwMTU0M2QwZGEyMzJhYjA1MjZjNTEwYzkiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM3NzAsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.Wblf_ODSImK_YuAq2TY2Dogeyn-qJpVaGV_lA9lzND6ugGB93xmRx3l9lfoCIWvt9MPkhtws6xw_fIq2H0m0mhPbvm_Ia-_Red6y31G9GZWGUYOrlKPHC3KXUKXjFTu841P33oxVLTzOgz4Tg9cCTBwS24A_stmcY-pujcDyJ8Ex_cpdjKTwj9ZOO51l10GPuNnYvl3Q8zPwgYAlE20lx3CvKWdzQmbLaWG0nTgrXHV1ZW8e6Yf5ZQgeQcJ-AwnoDsZu9o04FDKqa5wukiFA3GC2KC_g7S3skXqfO6L8b8L0tPhr1Kbqczjd7YLQdBAIUAIDfSF8L-30arCx5yIYag",
+          "post_logout_redirect_uri": "https://localhost:4200"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.5329ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.5329ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/logout?logoutId=CfDJ8Oyc7tcWDLtHvp8emdmz6_8XB7jQrWeBT-YIxVEDXd95FerepmpZorqhLUvC-88B5Cu7VvbTosYeX17IKstOFERMypq7hBpAdcOTX1Op0zJnPzuqeT_CHLkOLmdXfOnjU2cvboMei68omJ_UiT7TP9sgY7tSppOV6BLhLitIT7yl9_wk-uk_7usyKrgWbpSNBjcFfpVM8OrrI-J81ehlxpXAKqgNrTnTNIox0RdpXJBqIzalRc4ZQcMOP1kIXRn-4VzyWTKj7ozcmyKDtzMLEnVuBiW1G8eNrBxYdOlK5P1mKwWkX45nXBSDRmXN2xad47WteKNxK2DXPoKIvL6Ri02sxJBKtr9EX0DxNbFx5wmmXbC4apid0j5lla80d9Qk5DElEIbCCkbqbRNAfHXZIijSEQz_AF2XOh1WYsXFwvFafwcPq0f-9m7MQi9n9OUNhk9HMvbBX8L0NSckU2Jo5zrwyX8J72H32ihF6BxOVU9pw5jnXLtmXMHEui2yWVTMWw  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/logout?logoutId=CfDJ8Oyc7tcWDLtHvp8emdmz6_8XB7jQrWeBT-YIxVEDXd95FerepmpZorqhLUvC-88B5Cu7VvbTosYeX17IKstOFERMypq7hBpAdcOTX1Op0zJnPzuqeT_CHLkOLmdXfOnjU2cvboMei68omJ_UiT7TP9sgY7tSppOV6BLhLitIT7yl9_wk-uk_7usyKrgWbpSNBjcFfpVM8OrrI-J81ehlxpXAKqgNrTnTNIox0RdpXJBqIzalRc4ZQcMOP1kIXRn-4VzyWTKj7ozcmyKDtzMLEnVuBiW1G8eNrBxYdOlK5P1mKwWkX45nXBSDRmXN2xad47WteKNxK2DXPoKIvL6Ri02sxJBKtr9EX0DxNbFx5wmmXbC4apid0j5lla80d9Qk5DElEIbCCkbqbRNAfHXZIijSEQz_AF2XOh1WYsXFwvFafwcPq0f-9m7MQi9n9OUNhk9HMvbBX8L0NSckU2Jo5zrwyX8J72H32ihF6BxOVU9pw5jnXLtmXMHEui2yWVTMWw  
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Logout", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Logout", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_8XB7jQrWeBT-YIxVEDXd95FerepmpZorqhLUvC-88B5Cu7VvbTosYeX17IKstOFERMypq7hBpAdcOTX1Op0zJnPzuqeT_CHLkOLmdXfOnjU2cvboMei68omJ_UiT7TP9sgY7tSppOV6BLhLitIT7yl9_wk-uk_7usyKrgWbpSNBjcFfpVM8OrrI-J81ehlxpXAKqgNrTnTNIox0RdpXJBqIzalRc4ZQcMOP1kIXRn-4VzyWTKj7ozcmyKDtzMLEnVuBiW1G8eNrBxYdOlK5P1mKwWkX45nXBSDRmXN2xad47WteKNxK2DXPoKIvL6Ri02sxJBKtr9EX0DxNbFx5wmmXbC4apid0j5lla80d9Qk5DElEIbCCkbqbRNAfHXZIijSEQz_AF2XOh1WYsXFwvFafwcPq0f-9m7MQi9n9OUNhk9HMvbBX8L0NSckU2Jo5zrwyX8J72H32ihF6BxOVU9pw5jnXLtmXMHEui2yWVTMWw) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_8XB7jQrWeBT-YIxVEDXd95FerepmpZorqhLUvC-88B5Cu7VvbTosYeX17IKstOFERMypq7hBpAdcOTX1Op0zJnPzuqeT_CHLkOLmdXfOnjU2cvboMei68omJ_UiT7TP9sgY7tSppOV6BLhLitIT7yl9_wk-uk_7usyKrgWbpSNBjcFfpVM8OrrI-J81ehlxpXAKqgNrTnTNIox0RdpXJBqIzalRc4ZQcMOP1kIXRn-4VzyWTKj7ozcmyKDtzMLEnVuBiW1G8eNrBxYdOlK5P1mKwWkX45nXBSDRmXN2xad47WteKNxK2DXPoKIvL6Ri02sxJBKtr9EX0DxNbFx5wmmXbC4apid0j5lla80d9Qk5DElEIbCCkbqbRNAfHXZIijSEQz_AF2XOh1WYsXFwvFafwcPq0f-9m7MQi9n9OUNhk9HMvbBX8L0NSckU2Jo5zrwyX8J72H32ihF6BxOVU9pw5jnXLtmXMHEui2yWVTMWw) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+      AuthenticationScheme: idsrv signed out.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6962ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view LoggedOut.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+      AuthenticationScheme: idsrv signed out.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6962ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view LoggedOut.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view LoggedOut executed in 0.5658ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) in 1.5624ms
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view LoggedOut executed in 0.5658ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) in 1.5624ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.3452ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.3452ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5883ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.1953ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.3464ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.3106ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5883ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.1953ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.3464ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.3106ms 200 application/javascript
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/js/signout-redirect.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/signout-redirect.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\js\signout-redirect.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.0479ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/js/signout-redirect.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/signout-redirect.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\js\signout-redirect.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.0479ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.7055ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.7055ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession/callback?endSessionId=CfDJ8Oyc7tcWDLtHvp8emdmz6_8KZq4wx7eLeQnDxqTIzZWqqcYkKuEsQUGWi9cM3PZ4-1nrJfZN7kRqbABqmuhuMIPRn3eOpPf2b2ebXewrjpGCUc2SuhAwaxgqUg8YlhPFMdgDh2cW8TC5jyZuPCwVCWTuMlhJ7EjYm4GQpQCw7K2BEfHTRWjPiHyTNRig9JmHIf4wkPcdm6x7WArEo8SzSLemGgaT2jralsdjvs7ubFFVzX_hhh3cj9PrnwA8Pwkdzbu6GGH6knxtqq5kNnTO1sUVnmcYzOhhBAc3Bau4gJ_AZotwGU2d5-M0O-uR0PpIE87tehcVvBJhoMjH6FAJ8RQ  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+info: IdentityServer4.Endpoints.EndSessionCallbackEndpoint[0]
+      Successful signout callback.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.0468ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession/callback?endSessionId=CfDJ8Oyc7tcWDLtHvp8emdmz6_8KZq4wx7eLeQnDxqTIzZWqqcYkKuEsQUGWi9cM3PZ4-1nrJfZN7kRqbABqmuhuMIPRn3eOpPf2b2ebXewrjpGCUc2SuhAwaxgqUg8YlhPFMdgDh2cW8TC5jyZuPCwVCWTuMlhJ7EjYm4GQpQCw7K2BEfHTRWjPiHyTNRig9JmHIf4wkPcdm6x7WArEo8SzSLemGgaT2jralsdjvs7ubFFVzX_hhh3cj9PrnwA8Pwkdzbu6GGH6knxtqq5kNnTO1sUVnmcYzOhhBAc3Bau4gJ_AZotwGU2d5-M0O-uR0PpIE87tehcVvBJhoMjH6FAJ8RQ  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+info: IdentityServer4.Endpoints.EndSessionCallbackEndpoint[0]
+      Successful signout callback.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.0468ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.4967ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.4967ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.2687ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.2687ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c  
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "f56823661bb642b0bedc8ccbf129f737",
+        "Nonce": "611c77df582f4c6982b5f7da90b8362c",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "f56823661bb642b0bedc8ccbf129f737",
+          "nonce": "611c77df582f4c6982b5f7da90b8362c"
+        }
+      }
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "f56823661bb642b0bedc8ccbf129f737",
+        "Nonce": "611c77df582f4c6982b5f7da90b8362c",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "f56823661bb642b0bedc8ccbf129f737",
+          "nonce": "611c77df582f4c6982b5f7da90b8362c"
+        }
+      }
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.9243ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.9243ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3Df56823661bb642b0bedc8ccbf129f737%26nonce%3D611c77df582f4c6982b5f7da90b8362c  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3Df56823661bb642b0bedc8ccbf129f737%26nonce%3D611c77df582f4c6982b5f7da90b8362c  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2482ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2482ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 0.994ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.6086ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.1191ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 0.994ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.6086ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.1191ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.9427ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.9427ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.5118ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.5118ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.1422ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.5994ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.1422ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.5994ms 200 application/javascript
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.2982ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.2982ms 200 application/javascript
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.6353ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.6353ms 200 text/plain
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3Df56823661bb642b0bedc8ccbf129f737%26nonce%3D611c77df582f4c6982b5f7da90b8362c application/x-www-form-urlencoded 546
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3Df56823661bb642b0bedc8ccbf129f737%26nonce%3D611c77df582f4c6982b5f7da90b8362c application/x-www-form-urlencoded 546
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.551ms.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.551ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.4098ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8527ms 302 
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.4098ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8527ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=f56823661bb642b0bedc8ccbf129f737&nonce=611c77df582f4c6982b5f7da90b8362c  
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "f56823661bb642b0bedc8ccbf129f737",
+        "Nonce": "611c77df582f4c6982b5f7da90b8362c",
+        "SessionId": "9fb2d2b9574aac975ad156c4ff5ef10d",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "f56823661bb642b0bedc8ccbf129f737",
+          "nonce": "611c77df582f4c6982b5f7da90b8362c"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "f56823661bb642b0bedc8ccbf129f737",
+        "Nonce": "611c77df582f4c6982b5f7da90b8362c",
+        "SessionId": "9fb2d2b9574aac975ad156c4ff5ef10d",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "f56823661bb642b0bedc8ccbf129f737",
+          "nonce": "611c77df582f4c6982b5f7da90b8362c"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "f56823661bb642b0bedc8ccbf129f737",
+        "Scope": "openid profile roles"
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "f56823661bb642b0bedc8ccbf129f737",
+        "Scope": "openid profile roles"
+      }
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.2539ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.2539ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.0555ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 11.0555ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.0927ms 200 application/json; charset=UTF-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.0927ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5533ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.5533ms 200 text/html; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM5MDMsImV4cCI6MTU0MTczNDIwMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiI2MTFjNzdkZjU4MmY0YzY5ODJiNWY3ZGE5MGI4MzYyYyIsImlhdCI6MTU0MTczMzkwMywic2lkIjoiOWZiMmQyYjk1NzRhYWM5NzVhZDE1NmM0ZmY1ZWYxMGQiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM5MDMsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.YOif2dJPmqNbE9tkxEPVQS7rYTJzkMaNud60sYPiAqAYUyltVNaT7dgT11lU3mcYalwip7UoVmaB1MtMyMDp4OjMCnr8iWIj72E69XQWOqmcMl0ZbzR5UpvHkzgVDirtVxNYVhW0z8LqxjiL6Z5XGj1GPOg9g4qcvcgdP301D92HYK9km6G-Px2eAL3Hsz3uIjoMBlMveR3ngyByibpIF5ZsKanVmrf6PiO91utOUYFC5jBs5gqoGyp50OiK2SEH3ZcYvmajgIeg5disb3R87NxuZKbQbyzZmK3ptbwlMnF_iig07RNrdA3KSoWpQkRhr-XyieqFSoV67j1x6_xxxw&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM5MDMsImV4cCI6MTU0MTczNDIwMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiI2MTFjNzdkZjU4MmY0YzY5ODJiNWY3ZGE5MGI4MzYyYyIsImlhdCI6MTU0MTczMzkwMywic2lkIjoiOWZiMmQyYjk1NzRhYWM5NzVhZDE1NmM0ZmY1ZWYxMGQiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM5MDMsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.YOif2dJPmqNbE9tkxEPVQS7rYTJzkMaNud60sYPiAqAYUyltVNaT7dgT11lU3mcYalwip7UoVmaB1MtMyMDp4OjMCnr8iWIj72E69XQWOqmcMl0ZbzR5UpvHkzgVDirtVxNYVhW0z8LqxjiL6Z5XGj1GPOg9g4qcvcgdP301D92HYK9km6G-Px2eAL3Hsz3uIjoMBlMveR3ngyByibpIF5ZsKanVmrf6PiO91utOUYFC5jBs5gqoGyp50OiK2SEH3ZcYvmajgIeg5disb3R87NxuZKbQbyzZmK3ptbwlMnF_iig07RNrdA3KSoWpQkRhr-XyieqFSoV67j1x6_xxxw&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Validation.EndSessionRequestValidator[0]
+      End session request validation success
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "PostLogOutUri": "https://localhost:4200",
+        "Raw": {
+          "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM5MDMsImV4cCI6MTU0MTczNDIwMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiI2MTFjNzdkZjU4MmY0YzY5ODJiNWY3ZGE5MGI4MzYyYyIsImlhdCI6MTU0MTczMzkwMywic2lkIjoiOWZiMmQyYjk1NzRhYWM5NzVhZDE1NmM0ZmY1ZWYxMGQiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM5MDMsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.YOif2dJPmqNbE9tkxEPVQS7rYTJzkMaNud60sYPiAqAYUyltVNaT7dgT11lU3mcYalwip7UoVmaB1MtMyMDp4OjMCnr8iWIj72E69XQWOqmcMl0ZbzR5UpvHkzgVDirtVxNYVhW0z8LqxjiL6Z5XGj1GPOg9g4qcvcgdP301D92HYK9km6G-Px2eAL3Hsz3uIjoMBlMveR3ngyByibpIF5ZsKanVmrf6PiO91utOUYFC5jBs5gqoGyp50OiK2SEH3ZcYvmajgIeg5disb3R87NxuZKbQbyzZmK3ptbwlMnF_iig07RNrdA3KSoWpQkRhr-XyieqFSoV67j1x6_xxxw",
+          "post_logout_redirect_uri": "https://localhost:4200"
+        }
+      }
+info: IdentityServer4.Validation.EndSessionRequestValidator[0]
+      End session request validation success
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "PostLogOutUri": "https://localhost:4200",
+        "Raw": {
+          "id_token_hint": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE3MzM5MDMsImV4cCI6MTU0MTczNDIwMywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiI2MTFjNzdkZjU4MmY0YzY5ODJiNWY3ZGE5MGI4MzYyYyIsImlhdCI6MTU0MTczMzkwMywic2lkIjoiOWZiMmQyYjk1NzRhYWM5NzVhZDE1NmM0ZmY1ZWYxMGQiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE3MzM5MDMsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.YOif2dJPmqNbE9tkxEPVQS7rYTJzkMaNud60sYPiAqAYUyltVNaT7dgT11lU3mcYalwip7UoVmaB1MtMyMDp4OjMCnr8iWIj72E69XQWOqmcMl0ZbzR5UpvHkzgVDirtVxNYVhW0z8LqxjiL6Z5XGj1GPOg9g4qcvcgdP301D92HYK9km6G-Px2eAL3Hsz3uIjoMBlMveR3ngyByibpIF5ZsKanVmrf6PiO91utOUYFC5jBs5gqoGyp50OiK2SEH3ZcYvmajgIeg5disb3R87NxuZKbQbyzZmK3ptbwlMnF_iig07RNrdA3KSoWpQkRhr-XyieqFSoV67j1x6_xxxw",
+          "post_logout_redirect_uri": "https://localhost:4200"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.7002ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.7002ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/logout?logoutId=CfDJ8Oyc7tcWDLtHvp8emdmz6_8JqeykD9Pd_ArnWZs8ONcgIwlGhw0QfB1TAHZKt3IAWDw2tftXd5yVyj_ahsPNxak43ZVe1Im49XdnUwdrpSCGDbRQ7hGGG6j1ixEPPWoWsWKavIhWKeUMPntkvh4sTXS-tLwBjqiaVwgEhtxwUp3bBYr4_Yrgkq-DwehCvlJSlpDUCllui8uJMXavDtXWiYLgCOA0QhILgdI3KYTkjAPaIkgzUsSRYsetORj6gOHCRf-ZZks2BsUY9AaYVviJ7D8bDfnb5EeuNlGq_53h_0UgpOOXlMMJa8PuQCSAiMGy5IXaUITMz4iSrDvFR30h0yeyAQ39RqSdyJkPVyIvNWi5odJUCcfPuRg9DWNFSTmJM1AgIbLxnlVIjqLMPTkKaN9PKsVkvewlevuhrlumPqL3DFn-Yi11RpmKYPku6qnrU_rg2xbyjTmwrZLwJPGAt6hHRp1R7HUboWjjcaA9UWFYSvW66_ow3IP_SoLB9Vkfiw  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/logout?logoutId=CfDJ8Oyc7tcWDLtHvp8emdmz6_8JqeykD9Pd_ArnWZs8ONcgIwlGhw0QfB1TAHZKt3IAWDw2tftXd5yVyj_ahsPNxak43ZVe1Im49XdnUwdrpSCGDbRQ7hGGG6j1ixEPPWoWsWKavIhWKeUMPntkvh4sTXS-tLwBjqiaVwgEhtxwUp3bBYr4_Yrgkq-DwehCvlJSlpDUCllui8uJMXavDtXWiYLgCOA0QhILgdI3KYTkjAPaIkgzUsSRYsetORj6gOHCRf-ZZks2BsUY9AaYVviJ7D8bDfnb5EeuNlGq_53h_0UgpOOXlMMJa8PuQCSAiMGy5IXaUITMz4iSrDvFR30h0yeyAQ39RqSdyJkPVyIvNWi5odJUCcfPuRg9DWNFSTmJM1AgIbLxnlVIjqLMPTkKaN9PKsVkvewlevuhrlumPqL3DFn-Yi11RpmKYPku6qnrU_rg2xbyjTmwrZLwJPGAt6hHRp1R7HUboWjjcaA9UWFYSvW66_ow3IP_SoLB9Vkfiw  
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Logout", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Logout", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_8JqeykD9Pd_ArnWZs8ONcgIwlGhw0QfB1TAHZKt3IAWDw2tftXd5yVyj_ahsPNxak43ZVe1Im49XdnUwdrpSCGDbRQ7hGGG6j1ixEPPWoWsWKavIhWKeUMPntkvh4sTXS-tLwBjqiaVwgEhtxwUp3bBYr4_Yrgkq-DwehCvlJSlpDUCllui8uJMXavDtXWiYLgCOA0QhILgdI3KYTkjAPaIkgzUsSRYsetORj6gOHCRf-ZZks2BsUY9AaYVviJ7D8bDfnb5EeuNlGq_53h_0UgpOOXlMMJa8PuQCSAiMGy5IXaUITMz4iSrDvFR30h0yeyAQ39RqSdyJkPVyIvNWi5odJUCcfPuRg9DWNFSTmJM1AgIbLxnlVIjqLMPTkKaN9PKsVkvewlevuhrlumPqL3DFn-Yi11RpmKYPku6qnrU_rg2xbyjTmwrZLwJPGAt6hHRp1R7HUboWjjcaA9UWFYSvW66_ow3IP_SoLB9Vkfiw) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_8JqeykD9Pd_ArnWZs8ONcgIwlGhw0QfB1TAHZKt3IAWDw2tftXd5yVyj_ahsPNxak43ZVe1Im49XdnUwdrpSCGDbRQ7hGGG6j1ixEPPWoWsWKavIhWKeUMPntkvh4sTXS-tLwBjqiaVwgEhtxwUp3bBYr4_Yrgkq-DwehCvlJSlpDUCllui8uJMXavDtXWiYLgCOA0QhILgdI3KYTkjAPaIkgzUsSRYsetORj6gOHCRf-ZZks2BsUY9AaYVviJ7D8bDfnb5EeuNlGq_53h_0UgpOOXlMMJa8PuQCSAiMGy5IXaUITMz4iSrDvFR30h0yeyAQ39RqSdyJkPVyIvNWi5odJUCcfPuRg9DWNFSTmJM1AgIbLxnlVIjqLMPTkKaN9PKsVkvewlevuhrlumPqL3DFn-Yi11RpmKYPku6qnrU_rg2xbyjTmwrZLwJPGAt6hHRp1R7HUboWjjcaA9UWFYSvW66_ow3IP_SoLB9Vkfiw) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+      AuthenticationScheme: idsrv signed out.
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[11]
+      AuthenticationScheme: idsrv signed out.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6975ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6975ms.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view LoggedOut.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view LoggedOut.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view LoggedOut executed in 0.5161ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view LoggedOut executed in 0.5161ms.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) in 1.5308ms
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Logout (Phsom.Idp) in 1.5308ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.1224ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.1224ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.6916ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4281ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.2266ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.6916ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4281ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.2266ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.5414ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.5414ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.5982ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession/callback?endSessionId=CfDJ8Oyc7tcWDLtHvp8emdmz6_89u5FvfUkz_YkpkZt5urwxGiBlbCH0ByAd5aCJIYUTP6jHDHc4szkoUAGSNlc1WFZBSBQj2oT0aOAxGdr4_RejUDuMJuJBkC4kvmCh3j_1tDFr82FjaR8dBvM0uOk00LdczZd_qzlVZK6JF91EbHAzDIrj1jiV8tjNXwu2ovVBq-4FOJk0gLES4G_Ospk1morp965UifQML5hggDTsK7DHRoRw4tgDr93L2DejkIZxkJMaDXBTGaqwVCD2U0CxRoZAEB-7ee4P8HK56WhTNdLZbnfhjkLorRqjcYeEAzTqwVCv_TYwF8Yc35F_jhRYhpU  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.5982ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession/callback?endSessionId=CfDJ8Oyc7tcWDLtHvp8emdmz6_89u5FvfUkz_YkpkZt5urwxGiBlbCH0ByAd5aCJIYUTP6jHDHc4szkoUAGSNlc1WFZBSBQj2oT0aOAxGdr4_RejUDuMJuJBkC4kvmCh3j_1tDFr82FjaR8dBvM0uOk00LdczZd_qzlVZK6JF91EbHAzDIrj1jiV8tjNXwu2ovVBq-4FOJk0gLES4G_Ospk1morp965UifQML5hggDTsK7DHRoRw4tgDr93L2DejkIZxkJMaDXBTGaqwVCD2U0CxRoZAEB-7ee4P8HK56WhTNdLZbnfhjkLorRqjcYeEAzTqwVCv_TYwF8Yc35F_jhRYhpU  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+info: IdentityServer4.Endpoints.EndSessionCallbackEndpoint[0]
+      Successful signout callback.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.9484ms 200 text/html; charset=UTF-8
+: IdentityServer4.Endpoints.EndSessionCallbackEndpoint[0]
+      Successful signout callback.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/js/signout-redirect.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/signout-redirect.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\js\signout-redirect.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.2685ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.9484ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/js/signout-redirect.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/js/signout-redirect.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\js\signout-redirect.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.2685ms 200 application/javascript
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.6106ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.6106ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5195ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5195ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "96ecffaf2b17438eb520c4edf80bb9b0",
+        "Nonce": "d912c4624b3f4ebf9683462f827deb9e",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "96ecffaf2b17438eb520c4edf80bb9b0",
+          "nonce": "d912c4624b3f4ebf9683462f827deb9e"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "96ecffaf2b17438eb520c4edf80bb9b0",
+        "Nonce": "d912c4624b3f4ebf9683462f827deb9e",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "96ecffaf2b17438eb520c4edf80bb9b0",
+          "nonce": "d912c4624b3f4ebf9683462f827deb9e"
+        }
+      }
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.7874ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.7874ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D96ecffaf2b17438eb520c4edf80bb9b0%26nonce%3Dd912c4624b3f4ebf9683462f827deb9e  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D96ecffaf2b17438eb520c4edf80bb9b0%26nonce%3Dd912c4624b3f4ebf9683462f827deb9e  
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.25ms.
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.25ms.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 1.059ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.6065ms
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 1.059ms.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.9471ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.6065ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.9471ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.8984ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.6521ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.7062ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.6772ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.8984ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.6521ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.7062ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.6772ms 200 application/javascript
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.389ms 200 application/javascript
+: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.389ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css.map  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css.map'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css.map'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8.2605ms 200 text/plain
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8.2605ms 200 text/plain
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D96ecffaf2b17438eb520c4edf80bb9b0%26nonce%3Dd912c4624b3f4ebf9683462f827deb9e application/x-www-form-urlencoded 546
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D96ecffaf2b17438eb520c4edf80bb9b0%26nonce%3Dd912c4624b3f4ebf9683462f827deb9e application/x-www-form-urlencoded 546
+infoinfo: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4656ms.
+infoinfo: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4656ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.0544ms
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5945ms 302 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1.0544ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5945ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=96ecffaf2b17438eb520c4edf80bb9b0&nonce=d912c4624b3f4ebf9683462f827deb9e  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "96ecffaf2b17438eb520c4edf80bb9b0",
+        "Nonce": "d912c4624b3f4ebf9683462f827deb9e",
+        "SessionId": "889de8f18d2d4ecbc51919c42b060ebc",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "96ecffaf2b17438eb520c4edf80bb9b0",
+          "nonce": "d912c4624b3f4ebf9683462f827deb9e"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "96ecffaf2b17438eb520c4edf80bb9b0",
+        "Nonce": "d912c4624b3f4ebf9683462f827deb9e",
+        "SessionId": "889de8f18d2d4ecbc51919c42b060ebc",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "96ecffaf2b17438eb520c4edf80bb9b0",
+          "nonce": "d912c4624b3f4ebf9683462f827deb9e"
+        }
+      }
+infoinfo: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "96ecffaf2b17438eb520c4edf80bb9b0",
+        "Scope": "openid profile roles"
+      }
+: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint[0]
+      Authorize endpoint response
+      {
+        "SubjectId": "2D86D4D9-4A07-4745-8B51-CF5A930B891E",
+        "ClientId": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "State": "96ecffaf2b17438eb520c4edf80bb9b0",
+        "Scope": "openid profile roles"
+      }
+infoinfo: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: idsrv signed in.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.3486ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.3486ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.1895ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.1895ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration/jwks  
+infoinfo: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+warninfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.7128ms 200 application/json; charset=UTF-8
+: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.7128ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/checksession  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.7863ms 200 text/html; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.7863ms 200 text/html; charset=UTF-8

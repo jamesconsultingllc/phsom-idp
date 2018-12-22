@@ -1,0 +1,2555 @@
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [Clients] AS [c])
+          THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+      END
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [IdentityResources] AS [i])
+          THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+      END
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [ApiResources] AS [a])
+          THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+      END
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: using lazy-loading proxies MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [AspNetRoles] AS [x]
+              WHERE [x].[Name] = N'Admin')
+          THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+      END
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE
+          WHEN EXISTS (
+              SELECT 1
+              FROM [AspNetRoles] AS [x]
+              WHERE [x].[Name] = N'Teacher')
+          THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+      END
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\rudyj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (39ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+      FROM [AspNetUsers] AS [u]
+      WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+      FROM [AspNetUsers] AS [u]
+      WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (26ms) [Parameters=[@p14='?' (DbType = Int64), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p15='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTimeOffset), @p6='?' (Size = 256), @p7='?' (Size = 256), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [SecurityStamp] = @p11, [TwoFactorEnabled] = @p12, [UserName] = @p13
+      WHERE [Id] = @p14 AND [ConcurrencyStamp] = @p15;
+      SELECT @@ROWCOUNT;
+Hosting environment: Development
+Content root path: D:\Phsom\phsom-identity-server\Phsom.Idp
+Now listening on: http://127.0.0.1:26073
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:44352/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:44352/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 656.1686ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 656.1686ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.009ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.009ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 99.9509ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 99.9509ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) in 195.4128ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) in 195.4128ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7051.0058ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7051.0058ms 200 text/html; charset=utf-8
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [x].[Key], [x].[ClientId], [x].[CreationTime], [x].[Data], [x].[Expiration], [x].[SubjectId], [x].[Type]
+      FROM [PersistedGrants] AS [x]
+      WHERE [x].[Expiration] < GETUTCDATE()
+      ORDER BY [x].[Key]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [x].[Key], [x].[ClientId], [x].[CreationTime], [x].[Data], [x].[Expiration], [x].[SubjectId], [x].[Type]
+      FROM [PersistedGrants] AS [x]
+      WHERE [x].[Expiration] < GETUTCDATE()
+      ORDER BY [x].[Key]
+info: IdentityServer4.EntityFramework.TokenCleanup[0]
+      Clearing 0 tokens
+info: IdentityServer4.EntityFramework.TokenCleanup[0]
+      Clearing 0 tokens
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE4ODk2NDcsImV4cCI6MTU0MTg4OTk0NywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJiNTRhOTY3Y2NhZWQ0NDRhYmMwNTA3ZmZkZWFkZWIwYiIsImlhdCI6MTU0MTg4OTY0Nywic2lkIjoiYjU3ODhjY2Q0ZTQzY2E3ZmU4ZmJjNmMyNzVkNDhlYTgiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE4ODk2NDcsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.BdypYD5WenC1b-nieKmWX9yGg89v0nFx9ImzxE0TmHvOx4DkD1YxQXbvoc0nA68LHowa4j5biBbS_H0yr67BMyuV3_ibs_hC_fs7ykiGelVKtEXwzuenryQzOz_Vgs4wIZZNAmfzNvlw0jpCKjqrZ1EH2Drf2T-ByvaK8TsGjkWFef_YrB2pYgt10GCXWUI0MqRlV0KYKyCF5uJa_mi2SnQzotDNftQ361COh_-8jLH64gKw-77prGQHE1Gu1S-hFwBOdm_DFtUefkKZhi6FWo0yoIecma7Hk5i60iSpXYRe2WfEQljCzIabb84fZPNroDVKOtjKthOvuEiLl1IYgw&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/endsession?id_token_hint=eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxNjIxMzRhMzY2ZTkwMzgzYjg1OWFlMzk4OGFmN2YwIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDE4ODk2NDcsImV4cCI6MTU0MTg4OTk0NywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzNTIiLCJhdWQiOiJwaHNvbS13ZWItY2xpZW50Iiwibm9uY2UiOiJiNTRhOTY3Y2NhZWQ0NDRhYmMwNTA3ZmZkZWFkZWIwYiIsImlhdCI6MTU0MTg4OTY0Nywic2lkIjoiYjU3ODhjY2Q0ZTQzY2E3ZmU4ZmJjNmMyNzVkNDhlYTgiLCJzdWIiOiIyRDg2RDREOS00QTA3LTQ3NDUtOEI1MS1DRjVBOTMwQjg5MUUiLCJhdXRoX3RpbWUiOjE1NDE4ODk2NDcsImlkcCI6ImxvY2FsIiwiZ2l2ZW5fbmFtZSI6IlJ1ZHkiLCJmYW1pbHlfbmFtZSI6IkphbWVzIiwiYW1yIjpbInB3ZCJdfQ.BdypYD5WenC1b-nieKmWX9yGg89v0nFx9ImzxE0TmHvOx4DkD1YxQXbvoc0nA68LHowa4j5biBbS_H0yr67BMyuV3_ibs_hC_fs7ykiGelVKtEXwzuenryQzOz_Vgs4wIZZNAmfzNvlw0jpCKjqrZ1EH2Drf2T-ByvaK8TsGjkWFef_YrB2pYgt10GCXWUI0MqRlV0KYKyCF5uJa_mi2SnQzotDNftQ361COh_-8jLH64gKw-77prGQHE1Gu1S-hFwBOdm_DFtUefkKZhi6FWo0yoIecma7Hk5i60iSpXYRe2WfEQljCzIabb84fZPNroDVKOtjKthOvuEiLl1IYgw&post_logout_redirect_uri=https%3A%2F%2Flocalhost%3A4200  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+crit: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Unhandled exception: 2D86D4D9-4A07-4745-8B51-CF5A930B891E is not a valid value for Int64.
+      Parameter name: value
+System.ArgumentException: 2D86D4D9-4A07-4745-8B51-CF5A930B891E is not a valid value for Int64.
+Parameter name: value ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.ComponentModel.Int64Converter.FromString(String value, NumberFormatInfo formatInfo)
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Microsoft.AspNetCore.Identity.UserStoreBase`5.ConvertIdFromString(String id)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.FindByIdAsync(String userId, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByIdAsync(String userId)
+   at IdentityServer4.AspNetIdentity.ProfileService`1.IsActiveAsync(IsActiveContext context) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\ProfileService.cs:line 57
+   at IdentityServer4.Validation.TokenValidator.ValidateIdentityTokenAsync(String token, String clientId, Boolean validateLifetime) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\TokenValidator.cs:line 121
+   at IdentityServer4.Validation.EndSessionRequestValidator.ValidateAsync(NameValueCollection parameters, ClaimsPrincipal subject) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\EndSessionRequestValidator.cs:line 75
+   at IdentityServer4.Endpoints.EndSessionEndpoint.ProcessAsync(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Endpoints\EndSessionEndpoint.cs:line 56
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 54
+crit: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Unhandled exception: 2D86D4D9-4A07-4745-8B51-CF5A930B891E is not a valid value for Int64.
+      Parameter name: value
+System.ArgumentException: 2D86D4D9-4A07-4745-8B51-CF5A930B891E is not a valid value for Int64.
+Parameter name: value ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.ComponentModel.Int64Converter.FromString(String value, NumberFormatInfo formatInfo)
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Microsoft.AspNetCore.Identity.UserStoreBase`5.ConvertIdFromString(String id)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.FindByIdAsync(String userId, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByIdAsync(String userId)
+   at IdentityServer4.AspNetIdentity.ProfileService`1.IsActiveAsync(IsActiveContext context) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\ProfileService.cs:line 57
+   at IdentityServer4.Validation.TokenValidator.ValidateIdentityTokenAsync(String token, String clientId, Boolean validateLifetime) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\TokenValidator.cs:line 121
+   at IdentityServer4.Validation.EndSessionRequestValidator.ValidateAsync(NameValueCollection parameters, ClaimsPrincipal subject) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\EndSessionRequestValidator.cs:line 75
+   at IdentityServer4.Endpoints.EndSessionEndpoint.ProcessAsync(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Endpoints\EndSessionEndpoint.cs:line 56
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 54
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.ArgumentException: 2D86D4D9-4A07-4745-8B51-CF5A930B891E is not a valid value for Int64.
+Parameter name: value ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.ComponentModel.Int64Converter.FromString(String value, NumberFormatInfo formatInfo)
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Microsoft.AspNetCore.Identity.UserStoreBase`5.ConvertIdFromString(String id)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.FindByIdAsync(String userId, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByIdAsync(String userId)
+   at IdentityServer4.AspNetIdentity.ProfileService`1.IsActiveAsync(IsActiveContext context) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\ProfileService.cs:line 57
+   at IdentityServer4.Validation.TokenValidator.ValidateIdentityTokenAsync(String token, String clientId, Boolean validateLifetime) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\TokenValidator.cs:line 121
+   at IdentityServer4.Validation.EndSessionRequestValidator.ValidateAsync(NameValueCollection parameters, ClaimsPrincipal subject) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\EndSessionRequestValidator.cs:line 75
+   at IdentityServer4.Endpoints.EndSessionEndpoint.ProcessAsync(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Endpoints\EndSessionEndpoint.cs:line 56
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 54
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 69
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.ArgumentException: 2D86D4D9-4A07-4745-8B51-CF5A930B891E is not a valid value for Int64.
+Parameter name: value ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Int64.Parse(String s, NumberStyles style, IFormatProvider provider)
+   at System.ComponentModel.Int64Converter.FromString(String value, NumberFormatInfo formatInfo)
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   --- End of inner exception stack trace ---
+   at System.ComponentModel.BaseNumberConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at Microsoft.AspNetCore.Identity.UserStoreBase`5.ConvertIdFromString(String id)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.FindByIdAsync(String userId, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByIdAsync(String userId)
+   at IdentityServer4.AspNetIdentity.ProfileService`1.IsActiveAsync(IsActiveContext context) in C:\local\identity\server4\AspNetIdentity\src\IdentityServer4.AspNetIdentity\ProfileService.cs:line 57
+   at IdentityServer4.Validation.TokenValidator.ValidateIdentityTokenAsync(String token, String clientId, Boolean validateLifetime) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\TokenValidator.cs:line 121
+   at IdentityServer4.Validation.EndSessionRequestValidator.ValidateAsync(NameValueCollection parameters, ClaimsPrincipal subject) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Validation\EndSessionRequestValidator.cs:line 75
+   at IdentityServer4.Endpoints.EndSessionEndpoint.ProcessAsync(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Endpoints\EndSessionEndpoint.cs:line 56
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 54
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 69
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13652.4482ms 500 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 13652.4482ms 500 text/html; charset=utf-8
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [x].[Key], [x].[ClientId], [x].[CreationTime], [x].[Data], [x].[Expiration], [x].[SubjectId], [x].[Type]
+      FROM [PersistedGrants] AS [x]
+      WHERE [x].[Expiration] < GETUTCDATE()
+      ORDER BY [x].[Key]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [x].[Key], [x].[ClientId], [x].[CreationTime], [x].[Data], [x].[Expiration], [x].[SubjectId], [x].[Type]
+      FROM [PersistedGrants] AS [x]
+      WHERE [x].[Expiration] < GETUTCDATE()
+      ORDER BY [x].[Key]
+info: IdentityServer4.EntityFramework.TokenCleanup[0]
+      Clearing 0 tokens
+info: IdentityServer4.EntityFramework.TokenCleanup[0]
+      Clearing 0 tokens
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Origin]
+      FROM [Clients] AS [x]
+      INNER JOIN [ClientCorsOrigins] AS [x.AllowedCorsOrigins] ON [x].[Id] = [x.AllowedCorsOrigins].[ClientId]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Origin]
+      FROM [Clients] AS [x]
+      INNER JOIN [ClientCorsOrigins] AS [x.AllowedCorsOrigins] ON [x].[Id] = [x.AllowedCorsOrigins].[ClientId]
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x].[Id], [x].[Description], [x].[DisplayName], [x].[Emphasize], [x].[Enabled], [x].[Name], [x].[Required], [x].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [x]
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x].[Id], [x].[Description], [x].[DisplayName], [x].[Emphasize], [x].[Enabled], [x].[Name], [x].[Required], [x].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [x]
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.UserClaims].[Id], [x.UserClaims].[IdentityResourceId], [x.UserClaims].[Type]
+      FROM [IdentityClaims] AS [x.UserClaims]
+      INNER JOIN (
+          SELECT [x0].[Id]
+          FROM [IdentityResources] AS [x0]
+      ) AS [t] ON [x.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.UserClaims].[Id], [x.UserClaims].[IdentityResourceId], [x.UserClaims].[Type]
+      FROM [IdentityClaims] AS [x.UserClaims]
+      INNER JOIN (
+          SELECT [x0].[Id]
+          FROM [IdentityResources] AS [x0]
+      ) AS [t] ON [x.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x].[Id], [x].[Description], [x].[DisplayName], [x].[Enabled], [x].[Name]
+      FROM [ApiResources] AS [x]
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x].[Id], [x].[Description], [x].[DisplayName], [x].[Enabled], [x].[Name]
+      FROM [ApiResources] AS [x]
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Secrets].[Id], [x.Secrets].[ApiResourceId], [x.Secrets].[Description], [x.Secrets].[Expiration], [x.Secrets].[Type], [x.Secrets].[Value]
+      FROM [ApiSecrets] AS [x.Secrets]
+      INNER JOIN (
+          SELECT [x0].[Id]
+          FROM [ApiResources] AS [x0]
+      ) AS [t] ON [x.Secrets].[ApiResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Secrets].[Id], [x.Secrets].[ApiResourceId], [x.Secrets].[Description], [x.Secrets].[Expiration], [x.Secrets].[Type], [x.Secrets].[Value]
+      FROM [ApiSecrets] AS [x.Secrets]
+      INNER JOIN (
+          SELECT [x0].[Id]
+          FROM [ApiResources] AS [x0]
+      ) AS [t] ON [x.Secrets].[ApiResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Scopes].[Id], [x.Scopes].[ApiResourceId], [x.Scopes].[Description], [x.Scopes].[DisplayName], [x.Scopes].[Emphasize], [x.Scopes].[Name], [x.Scopes].[Required], [x.Scopes].[ShowInDiscoveryDocument]
+      FROM [ApiScopes] AS [x.Scopes]
+      INNER JOIN (
+          SELECT [x1].[Id]
+          FROM [ApiResources] AS [x1]
+      ) AS [t0] ON [x.Scopes].[ApiResourceId] = [t0].[Id]
+      ORDER BY [t0].[Id], [x.Scopes].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Scopes].[Id], [x.Scopes].[ApiResourceId], [x.Scopes].[Description], [x.Scopes].[DisplayName], [x.Scopes].[Emphasize], [x.Scopes].[Name], [x.Scopes].[Required], [x.Scopes].[ShowInDiscoveryDocument]
+      FROM [ApiScopes] AS [x.Scopes]
+      INNER JOIN (
+          SELECT [x1].[Id]
+          FROM [ApiResources] AS [x1]
+      ) AS [t0] ON [x.Scopes].[ApiResourceId] = [t0].[Id]
+      ORDER BY [t0].[Id], [x.Scopes].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Scopes.UserClaims].[Id], [x.Scopes.UserClaims].[ApiScopeId], [x.Scopes.UserClaims].[Type]
+      FROM [ApiScopeClaims] AS [x.Scopes.UserClaims]
+      INNER JOIN (
+          SELECT DISTINCT [x.Scopes0].[Id], [t1].[Id] AS [Id0]
+          FROM [ApiScopes] AS [x.Scopes0]
+          INNER JOIN (
+              SELECT [x2].[Id]
+              FROM [ApiResources] AS [x2]
+          ) AS [t1] ON [x.Scopes0].[ApiResourceId] = [t1].[Id]
+      ) AS [t2] ON [x.Scopes.UserClaims].[ApiScopeId] = [t2].[Id]
+      ORDER BY [t2].[Id0], [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Scopes.UserClaims].[Id], [x.Scopes.UserClaims].[ApiScopeId], [x.Scopes.UserClaims].[Type]
+      FROM [ApiScopeClaims] AS [x.Scopes.UserClaims]
+      INNER JOIN (
+          SELECT DISTINCT [x.Scopes0].[Id], [t1].[Id] AS [Id0]
+          FROM [ApiScopes] AS [x.Scopes0]
+          INNER JOIN (
+              SELECT [x2].[Id]
+              FROM [ApiResources] AS [x2]
+          ) AS [t1] ON [x.Scopes0].[ApiResourceId] = [t1].[Id]
+      ) AS [t2] ON [x.Scopes.UserClaims].[ApiScopeId] = [t2].[Id]
+      ORDER BY [t2].[Id0], [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.UserClaims].[Id], [x.UserClaims].[ApiResourceId], [x.UserClaims].[Type]
+      FROM [ApiClaims] AS [x.UserClaims]
+      INNER JOIN (
+          SELECT [x3].[Id]
+          FROM [ApiResources] AS [x3]
+      ) AS [t3] ON [x.UserClaims].[ApiResourceId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [x.UserClaims].[Id], [x.UserClaims].[ApiResourceId], [x.UserClaims].[Type]
+      FROM [ApiClaims] AS [x.UserClaims]
+      INNER JOIN (
+          SELECT [x3].[Id]
+          FROM [ApiResources] AS [x3]
+      ) AS [t3] ON [x.UserClaims].[ApiResourceId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 553.271ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 553.271ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=83e5c5aff16344deb86ccd21d644c659&nonce=f35fa92a73474a4890acf008351cd1c0  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=83e5c5aff16344deb86ccd21d644c659&nonce=f35fa92a73474a4890acf008351cd1c0  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (26ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (26ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (26ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (26ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (27ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (27ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (24ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (27ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (27ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "83e5c5aff16344deb86ccd21d644c659",
+        "Nonce": "f35fa92a73474a4890acf008351cd1c0",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "83e5c5aff16344deb86ccd21d644c659",
+          "nonce": "f35fa92a73474a4890acf008351cd1c0"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      ValidatedAuthorizeRequest
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "RedirectUri": "https://localhost:4200/signin-oidc",
+        "AllowedRedirectUris": [
+          "https://localhost:4200/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "ResponseType": "id_token",
+        "ResponseMode": "fragment",
+        "GrantType": "implicit",
+        "RequestedScopes": "openid profile roles",
+        "State": "83e5c5aff16344deb86ccd21d644c659",
+        "Nonce": "f35fa92a73474a4890acf008351cd1c0",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "83e5c5aff16344deb86ccd21d644c659",
+          "nonce": "f35fa92a73474a4890acf008351cd1c0"
+        }
+      }
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator[0]
+      Showing login: User is not authenticated
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 745.2028ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 745.2028ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D83e5c5aff16344deb86ccd21d644c659%26nonce%3Df35fa92a73474a4890acf008351cd1c0  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D83e5c5aff16344deb86ccd21d644c659%26nonce%3Df35fa92a73474a4890acf008351cd1c0  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=83e5c5aff16344deb86ccd21d644c659&nonce=f35fa92a73474a4890acf008351cd1c0) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (/connect/authorize/callback?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=83e5c5aff16344deb86ccd21d644c659&nonce=f35fa92a73474a4890acf008351cd1c0) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (42ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (42ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (39ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (39ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (47ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (47ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (43ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (43ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (39ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (39ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (40ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (40ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (37ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1115.9364ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1115.9364ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 71.6705ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 71.6705ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1248.2562ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1248.2562ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1284.6446ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1284.6446ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D83e5c5aff16344deb86ccd21d644c659%26nonce%3Df35fa92a73474a4890acf008351cd1c0 application/x-www-form-urlencoded 543
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44352/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dphsom-web-client%26redirect_uri%3Dhttps%253A%252F%252Flocalhost%253A4200%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%2520roles%26state%3D83e5c5aff16344deb86ccd21d644c659%26nonce%3Df35fa92a73474a4890acf008351cd1c0 application/x-www-form-urlencoded 543
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Login", controller = "Account"}. Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) with arguments (IdentityServer4.Quickstart.UI.LoginInputModel, login) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'ConfigurationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (36ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource].[Id], [identityResource].[Description], [identityResource].[DisplayName], [identityResource].[Emphasize], [identityResource].[Enabled], [identityResource].[Name], [identityResource].[Required], [identityResource].[ShowInDiscoveryDocument]
+      FROM [IdentityResources] AS [identityResource]
+      WHERE [identityResource].[Name] IN (N'openid', N'profile', N'roles')
+      ORDER BY [identityResource].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [identityResource.UserClaims].[Id], [identityResource.UserClaims].[IdentityResourceId], [identityResource.UserClaims].[Type]
+      FROM [IdentityClaims] AS [identityResource.UserClaims]
+      INNER JOIN (
+          SELECT [identityResource0].[Id]
+          FROM [IdentityResources] AS [identityResource0]
+          WHERE [identityResource0].[Name] IN (N'openid', N'profile', N'roles')
+      ) AS [t] ON [identityResource.UserClaims].[IdentityResourceId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [api].[Id], [api].[Description], [api].[DisplayName], [api].[Enabled], [api].[Name]
+      FROM [ApiResources] AS [api]
+      WHERE EXISTS (
+          SELECT 1
+          FROM [ApiScopes] AS [x]
+          WHERE [x].[Name] IN (N'openid', N'profile', N'roles') AND ([api].[Id] = [x].[ApiResourceId]))
+      ORDER BY [api].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [x].[Id], [x].[AbsoluteRefreshTokenLifetime], [x].[AccessTokenLifetime], [x].[AccessTokenType], [x].[AllowAccessTokensViaBrowser], [x].[AllowOfflineAccess], [x].[AllowPlainTextPkce], [x].[AllowRememberConsent], [x].[AlwaysIncludeUserClaimsInIdToken], [x].[AlwaysSendClientClaims], [x].[AuthorizationCodeLifetime], [x].[BackChannelLogoutSessionRequired], [x].[BackChannelLogoutUri], [x].[ClientClaimsPrefix], [x].[ClientId], [x].[ClientName], [x].[ClientUri], [x].[ConsentLifetime], [x].[Description], [x].[EnableLocalLogin], [x].[Enabled], [x].[FrontChannelLogoutSessionRequired], [x].[FrontChannelLogoutUri], [x].[IdentityTokenLifetime], [x].[IncludeJwtId], [x].[LogoUri], [x].[PairWiseSubjectSalt], [x].[ProtocolType], [x].[RefreshTokenExpiration], [x].[RefreshTokenUsage], [x].[RequireClientSecret], [x].[RequireConsent], [x].[RequirePkce], [x].[SlidingRefreshTokenLifetime], [x].[UpdateAccessTokenClaimsOnRefresh]
+      FROM [Clients] AS [x]
+      WHERE [x].[ClientId] = @__clientId_0
+      ORDER BY [x].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedGrantTypes].[Id], [x.AllowedGrantTypes].[ClientId], [x.AllowedGrantTypes].[GrantType]
+      FROM [ClientGrantTypes] AS [x.AllowedGrantTypes]
+      INNER JOIN (
+          SELECT TOP(1) [x0].[Id]
+          FROM [Clients] AS [x0]
+          WHERE [x0].[ClientId] = @__clientId_0
+          ORDER BY [x0].[Id]
+      ) AS [t] ON [x.AllowedGrantTypes].[ClientId] = [t].[Id]
+      ORDER BY [t].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (30ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.RedirectUris].[Id], [x.RedirectUris].[ClientId], [x.RedirectUris].[RedirectUri]
+      FROM [ClientRedirectUris] AS [x.RedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x1].[Id]
+          FROM [Clients] AS [x1]
+          WHERE [x1].[ClientId] = @__clientId_0
+          ORDER BY [x1].[Id]
+      ) AS [t0] ON [x.RedirectUris].[ClientId] = [t0].[Id]
+      ORDER BY [t0].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.PostLogoutRedirectUris].[Id], [x.PostLogoutRedirectUris].[ClientId], [x.PostLogoutRedirectUris].[PostLogoutRedirectUri]
+      FROM [ClientPostLogoutRedirectUris] AS [x.PostLogoutRedirectUris]
+      INNER JOIN (
+          SELECT TOP(1) [x2].[Id]
+          FROM [Clients] AS [x2]
+          WHERE [x2].[ClientId] = @__clientId_0
+          ORDER BY [x2].[Id]
+      ) AS [t1] ON [x.PostLogoutRedirectUris].[ClientId] = [t1].[Id]
+      ORDER BY [t1].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (33ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedScopes].[Id], [x.AllowedScopes].[ClientId], [x.AllowedScopes].[Scope]
+      FROM [ClientScopes] AS [x.AllowedScopes]
+      INNER JOIN (
+          SELECT TOP(1) [x3].[Id]
+          FROM [Clients] AS [x3]
+          WHERE [x3].[ClientId] = @__clientId_0
+          ORDER BY [x3].[Id]
+      ) AS [t2] ON [x.AllowedScopes].[ClientId] = [t2].[Id]
+      ORDER BY [t2].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (35ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.ClientSecrets].[Id], [x.ClientSecrets].[ClientId], [x.ClientSecrets].[Description], [x.ClientSecrets].[Expiration], [x.ClientSecrets].[Type], [x.ClientSecrets].[Value]
+      FROM [ClientSecrets] AS [x.ClientSecrets]
+      INNER JOIN (
+          SELECT TOP(1) [x4].[Id]
+          FROM [Clients] AS [x4]
+          WHERE [x4].[ClientId] = @__clientId_0
+          ORDER BY [x4].[Id]
+      ) AS [t3] ON [x.ClientSecrets].[ClientId] = [t3].[Id]
+      ORDER BY [t3].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (32ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Claims].[Id], [x.Claims].[ClientId], [x.Claims].[Type], [x.Claims].[Value]
+      FROM [ClientClaims] AS [x.Claims]
+      INNER JOIN (
+          SELECT TOP(1) [x5].[Id]
+          FROM [Clients] AS [x5]
+          WHERE [x5].[ClientId] = @__clientId_0
+          ORDER BY [x5].[Id]
+      ) AS [t4] ON [x.Claims].[ClientId] = [t4].[Id]
+      ORDER BY [t4].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.IdentityProviderRestrictions].[Id], [x.IdentityProviderRestrictions].[ClientId], [x.IdentityProviderRestrictions].[Provider]
+      FROM [ClientIdPRestrictions] AS [x.IdentityProviderRestrictions]
+      INNER JOIN (
+          SELECT TOP(1) [x6].[Id]
+          FROM [Clients] AS [x6]
+          WHERE [x6].[ClientId] = @__clientId_0
+          ORDER BY [x6].[Id]
+      ) AS [t5] ON [x.IdentityProviderRestrictions].[ClientId] = [t5].[Id]
+      ORDER BY [t5].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.AllowedCorsOrigins].[Id], [x.AllowedCorsOrigins].[ClientId], [x.AllowedCorsOrigins].[Origin]
+      FROM [ClientCorsOrigins] AS [x.AllowedCorsOrigins]
+      INNER JOIN (
+          SELECT TOP(1) [x7].[Id]
+          FROM [Clients] AS [x7]
+          WHERE [x7].[ClientId] = @__clientId_0
+          ORDER BY [x7].[Id]
+      ) AS [t6] ON [x.AllowedCorsOrigins].[ClientId] = [t6].[Id]
+      ORDER BY [t6].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (31ms) [Parameters=[@__clientId_0='?' (Size = 200)], CommandType='Text', CommandTimeout='30']
+      SELECT [x.Properties].[Id], [x.Properties].[ClientId], [x.Properties].[Key], [x.Properties].[Value]
+      FROM [ClientProperties] AS [x.Properties]
+      INNER JOIN (
+          SELECT TOP(1) [x8].[Id]
+          FROM [Clients] AS [x8]
+          WHERE [x8].[ClientId] = @__clientId_0
+          ORDER BY [x8].[Id]
+      ) AS [t7] ON [x.Properties].[ClientId] = [t7].[Id]
+      ORDER BY [t7].[Id]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1582.5465ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1582.5465ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Login.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 10.015ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Login executed in 10.015ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1661.2713ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Phsom.Idp) in 1661.2713ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1685.131ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1685.131ms 200 text/html; charset=utf-8
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'PersistedGrantDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MigrationsAssembly=Phsom.Idp 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [x].[Key], [x].[ClientId], [x].[CreationTime], [x].[Data], [x].[Expiration], [x].[SubjectId], [x].[Type]
+      FROM [PersistedGrants] AS [x]
+      WHERE [x].[Expiration] < GETUTCDATE()
+      ORDER BY [x].[Key]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(@__p_0) [x].[Key], [x].[ClientId], [x].[CreationTime], [x].[Data], [x].[Expiration], [x].[SubjectId], [x].[Type]
+      FROM [PersistedGrants] AS [x]
+      WHERE [x].[Expiration] < GETUTCDATE()
+      ORDER BY [x].[Key]
+info: IdentityServer4.EntityFramework.TokenCleanup[0]
+      Clearing 0 tokens
+info: IdentityServer4.EntityFramework.TokenCleanup[0]
+      Clearing 0 tokens
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

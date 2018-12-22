@@ -1,0 +1,43 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-4072816495-3766969652-3184993898-1520276354-1761507288\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Phsom\phsom-identity-server\Phsom.Idp
+Now listening on: http://127.0.0.1:23037
+Application started. Press Ctrl+C to shut down.
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:447/idp/swagger/index.html  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:447/idp/swagger/index.html  
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 141.5528ms 200 text/html
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 141.5528ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:447/idp/swagger/~/swagger/v1/swagger.json  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:447/idp/swagger/~/swagger/v1/swagger.json  
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:447/idp/swagger/favicon-32x32.png  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:447/idp/swagger/favicon-32x32.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 14.1677ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 14.1677ms 200 image/png
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 140.7218ms 404 
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 140.7218ms 404 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:23037/IDP/iisintegration  0
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://127.0.0.1:23037/IDP/iisintegration  0
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2371ms 202 
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.2371ms 202 
+Application is shutting down...

@@ -1,0 +1,805 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\rudyj\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+infoinfo: IdentityServer4.Startup[0]
+      You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+: IdentityServer4.Startup[0]
+      You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+Hosting environment: Development
+Content root path: D:\phsom\phsom-identity-server\Phsom.Idp
+Now listening on: http://127.0.0.1:10933
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Index", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.8739ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.8739ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Index.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 164.5091ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Index executed in 164.5091ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) in 205.6575ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Index (Phsom.Idp) in 205.6575ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 564.5018ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 564.5018ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 26.3182ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 26.3182ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.jpg'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.jpg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 65.8799ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 83.982ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 75.8121ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 74.7566ms 200 image/jpeg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 87.0692ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.jpg'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.jpg'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 65.8799ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 75.8121ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 83.982ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 74.7566ms 200 image/jpeg
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 87.0692ms 200 text/css
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+infoinfo: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warnwarn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+infoinfo: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 77.0122ms 200 application/json; charset=UTF-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 77.0122ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=3c1e6b34fccd417d8d8230eb17a1ac6e&nonce=993a172a91464b67b223be3ab86c754f  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=3c1e6b34fccd417d8d8230eb17a1ac6e&nonce=993a172a91464b67b223be3ab86c754f  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "3c1e6b34fccd417d8d8230eb17a1ac6e",
+          "nonce": "993a172a91464b67b223be3ab86c754f"
+        }
+      }
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "3c1e6b34fccd417d8d8230eb17a1ac6e",
+          "nonce": "993a172a91464b67b223be3ab86c754f"
+        }
+      }
+failfail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "3c1e6b34fccd417d8d8230eb17a1ac6e",
+          "nonce": "993a172a91464b67b223be3ab86c754f"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "3c1e6b34fccd417d8d8230eb17a1ac6e",
+          "nonce": "993a172a91464b67b223be3ab86c754f"
+        }
+      }
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 95.0289ms 302 
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 95.0289ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6__a1bqgzMae530u1iDO1LwakbDzuZtQq9esIRv8MgNJ6Gj3f4Vy_KukY4Pyc8BfXSzBQc8V5gkg-7mD8QL13TCTVV8BxbWWxvAKf2KKId4NBkQ2ZAA2AmZuOUAWmKId6xJdRTxj1XY8zJA158p74dB84t3E3L_-RjpuOLUuy3Xg-_IApi0Prh6wfIxNiWAQqFgiLwNNLtpPQSG42umN04E6ezGimZWf9PfbcbzRyraPDOCkX7XRUtgFzmnnoPhs8TVXe9EGBWM4c7FM8IMcJOpubctuosa3XM4ksZmXBa81Og  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6__a1bqgzMae530u1iDO1LwakbDzuZtQq9esIRv8MgNJ6Gj3f4Vy_KukY4Pyc8BfXSzBQc8V5gkg-7mD8QL13TCTVV8BxbWWxvAKf2KKId4NBkQ2ZAA2AmZuOUAWmKId6xJdRTxj1XY8zJA158p74dB84t3E3L_-RjpuOLUuy3Xg-_IApi0Prh6wfIxNiWAQqFgiLwNNLtpPQSG42umN04E6ezGimZWf9PfbcbzRyraPDOCkX7XRUtgFzmnnoPhs8TVXe9EGBWM4c7FM8IMcJOpubctuosa3XM4ksZmXBa81Og  
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6__a1bqgzMae530u1iDO1LwakbDzuZtQq9esIRv8MgNJ6Gj3f4Vy_KukY4Pyc8BfXSzBQc8V5gkg-7mD8QL13TCTVV8BxbWWxvAKf2KKId4NBkQ2ZAA2AmZuOUAWmKId6xJdRTxj1XY8zJA158p74dB84t3E3L_-RjpuOLUuy3Xg-_IApi0Prh6wfIxNiWAQqFgiLwNNLtpPQSG42umN04E6ezGimZWf9PfbcbzRyraPDOCkX7XRUtgFzmnnoPhs8TVXe9EGBWM4c7FM8IMcJOpubctuosa3XM4ksZmXBa81Og) - Validation state: Valid
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6__a1bqgzMae530u1iDO1LwakbDzuZtQq9esIRv8MgNJ6Gj3f4Vy_KukY4Pyc8BfXSzBQc8V5gkg-7mD8QL13TCTVV8BxbWWxvAKf2KKId4NBkQ2ZAA2AmZuOUAWmKId6xJdRTxj1XY8zJA158p74dB84t3E3L_-RjpuOLUuy3Xg-_IApi0Prh6wfIxNiWAQqFgiLwNNLtpPQSG42umN04E6ezGimZWf9PfbcbzRyraPDOCkX7XRUtgFzmnnoPhs8TVXe9EGBWM4c7FM8IMcJOpubctuosa3XM4ksZmXBa81Og) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.8653ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.8653ms.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 12.226ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 35.3612ms
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 12.226ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 35.3612ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 54.4879ms 200 text/html; charset=utf-8
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 54.4879ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/css/bootstrap.css  
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/css/site.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3938ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4913ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.8652ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.2749ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/css/site.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\css\site.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3938ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/jquery/jquery.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/icon.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/icon.png'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\icon.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 0.4913ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/css/bootstrap.css'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\css\bootstrap.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.8652ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/jquery/jquery.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\jquery\jquery.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.2749ms 200 application/javascript
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/lib/bootstrap/js/bootstrap.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+infoinfo: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/lib/bootstrap/js/bootstrap.js'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\lib\bootstrap\js\bootstrap.js'
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8734ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8734ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/favicon.ico  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/favicon.ico'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\favicon.ico'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/favicon.ico'. Physical path: 'D:\phsom\phsom-identity-server\Phsom.Idp\wwwroot\favicon.ico'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.8156ms 200 image/x-icon
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6.8156ms 200 image/x-icon
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=1bccc129fd6c4ff2b2b9d8602e2b8393&nonce=9b5445cdfb184e6ca46349724485b028  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=1bccc129fd6c4ff2b2b9d8602e2b8393&nonce=9b5445cdfb184e6ca46349724485b028  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1bccc129fd6c4ff2b2b9d8602e2b8393",
+          "nonce": "9b5445cdfb184e6ca46349724485b028"
+        }
+      }
+fail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1bccc129fd6c4ff2b2b9d8602e2b8393",
+          "nonce": "9b5445cdfb184e6ca46349724485b028"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.0216ms 302 
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1bccc129fd6c4ff2b2b9d8602e2b8393",
+          "nonce": "9b5445cdfb184e6ca46349724485b028"
+        }
+      }
+fail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1bccc129fd6c4ff2b2b9d8602e2b8393",
+          "nonce": "9b5445cdfb184e6ca46349724485b028"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.0216ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6__s-9m7ePjdzCk8xVWGDU3qLjzJSM_vBXlRuFag15zUlgyq5PlC36GJihj2zRGDuk5ueW0wzFjmBkOtGhIM1UMBNiK67EmivSfPQLmwol3ZWnfo272otlXI0dklU6qr8B88d0Tfq97b9vwWdyO4qeWcXdjdde_ag5kQI3mykXU90cfDLwTBnNsC7rhS6jZMRO_gIf0M4ahgwgjCLjz3QjH162XMRj2tgdal0LCIi4SIVhw8AuXFk1ef58LYceDtVMGcPUiIg33P-2B4jtPF29EB_tScsdZAB9OZbjMTVVq1Vw  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6__s-9m7ePjdzCk8xVWGDU3qLjzJSM_vBXlRuFag15zUlgyq5PlC36GJihj2zRGDuk5ueW0wzFjmBkOtGhIM1UMBNiK67EmivSfPQLmwol3ZWnfo272otlXI0dklU6qr8B88d0Tfq97b9vwWdyO4qeWcXdjdde_ag5kQI3mykXU90cfDLwTBnNsC7rhS6jZMRO_gIf0M4ahgwgjCLjz3QjH162XMRj2tgdal0LCIi4SIVhw8AuXFk1ef58LYceDtVMGcPUiIg33P-2B4jtPF29EB_tScsdZAB9OZbjMTVVq1Vw  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6__s-9m7ePjdzCk8xVWGDU3qLjzJSM_vBXlRuFag15zUlgyq5PlC36GJihj2zRGDuk5ueW0wzFjmBkOtGhIM1UMBNiK67EmivSfPQLmwol3ZWnfo272otlXI0dklU6qr8B88d0Tfq97b9vwWdyO4qeWcXdjdde_ag5kQI3mykXU90cfDLwTBnNsC7rhS6jZMRO_gIf0M4ahgwgjCLjz3QjH162XMRj2tgdal0LCIi4SIVhw8AuXFk1ef58LYceDtVMGcPUiIg33P-2B4jtPF29EB_tScsdZAB9OZbjMTVVq1Vw) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2732ms.
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6__s-9m7ePjdzCk8xVWGDU3qLjzJSM_vBXlRuFag15zUlgyq5PlC36GJihj2zRGDuk5ueW0wzFjmBkOtGhIM1UMBNiK67EmivSfPQLmwol3ZWnfo272otlXI0dklU6qr8B88d0Tfq97b9vwWdyO4qeWcXdjdde_ag5kQI3mykXU90cfDLwTBnNsC7rhS6jZMRO_gIf0M4ahgwgjCLjz3QjH162XMRj2tgdal0LCIi4SIVhw8AuXFk1ef58LYceDtVMGcPUiIg33P-2B4jtPF29EB_tScsdZAB9OZbjMTVVq1Vw) - Validation state: Valid
+infoinfo: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 1.6188ms.
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2732ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 2.5368ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.2071ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 1.6188ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 2.5368ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.2071ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+warninfo: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3986ms 200 application/json; charset=UTF-8
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.3986ms 200 application/json; charset=UTF-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=5c37c10d6c6e4f18a67935034f65f9c2&nonce=0ea505f9a5e74a56a27a1e1097eaae10  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=5c37c10d6c6e4f18a67935034f65f9c2&nonce=0ea505f9a5e74a56a27a1e1097eaae10  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "5c37c10d6c6e4f18a67935034f65f9c2",
+          "nonce": "0ea505f9a5e74a56a27a1e1097eaae10"
+        }
+      }
+fail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "5c37c10d6c6e4f18a67935034f65f9c2",
+          "nonce": "0ea505f9a5e74a56a27a1e1097eaae10"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.0509ms 302 
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "5c37c10d6c6e4f18a67935034f65f9c2",
+          "nonce": "0ea505f9a5e74a56a27a1e1097eaae10"
+        }
+      }
+fail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "5c37c10d6c6e4f18a67935034f65f9c2",
+          "nonce": "0ea505f9a5e74a56a27a1e1097eaae10"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.0509ms 302 
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6__cDktQLSXit1VmI0RqMvWxhYcd14_0GGjld8FplXpLMLMYsW04uq1tDqhDIIbYklgOcPG7eRCRhWN0GKy7n3vEqd1RhUW-8UD-XLM4k-fKl4wRwXXNeK2KmGgsqQ33WpwfGFp1QnGLtJKIZpIOUXsVrNzw9EXbC48sDyXE_WlHK0etr6raCTL6aeN2cS9bvGeBu9mwnZoXvMKRgsJaEijwPa_ttntU9QAxciscZmpmUPBtTUsAMwg-M1_Me5v9xcEqvE9lcmphlnn2u4Gatj8cgmmRQ4158YM3F2DQFTC1Hw  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6__cDktQLSXit1VmI0RqMvWxhYcd14_0GGjld8FplXpLMLMYsW04uq1tDqhDIIbYklgOcPG7eRCRhWN0GKy7n3vEqd1RhUW-8UD-XLM4k-fKl4wRwXXNeK2KmGgsqQ33WpwfGFp1QnGLtJKIZpIOUXsVrNzw9EXbC48sDyXE_WlHK0etr6raCTL6aeN2cS9bvGeBu9mwnZoXvMKRgsJaEijwPa_ttntU9QAxciscZmpmUPBtTUsAMwg-M1_Me5v9xcEqvE9lcmphlnn2u4Gatj8cgmmRQ4158YM3F2DQFTC1Hw  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6__cDktQLSXit1VmI0RqMvWxhYcd14_0GGjld8FplXpLMLMYsW04uq1tDqhDIIbYklgOcPG7eRCRhWN0GKy7n3vEqd1RhUW-8UD-XLM4k-fKl4wRwXXNeK2KmGgsqQ33WpwfGFp1QnGLtJKIZpIOUXsVrNzw9EXbC48sDyXE_WlHK0etr6raCTL6aeN2cS9bvGeBu9mwnZoXvMKRgsJaEijwPa_ttntU9QAxciscZmpmUPBtTUsAMwg-M1_Me5v9xcEqvE9lcmphlnn2u4Gatj8cgmmRQ4158YM3F2DQFTC1Hw) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1273ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6__cDktQLSXit1VmI0RqMvWxhYcd14_0GGjld8FplXpLMLMYsW04uq1tDqhDIIbYklgOcPG7eRCRhWN0GKy7n3vEqd1RhUW-8UD-XLM4k-fKl4wRwXXNeK2KmGgsqQ33WpwfGFp1QnGLtJKIZpIOUXsVrNzw9EXbC48sDyXE_WlHK0etr6raCTL6aeN2cS9bvGeBu9mwnZoXvMKRgsJaEijwPa_ttntU9QAxciscZmpmUPBtTUsAMwg-M1_Me5v9xcEqvE9lcmphlnn2u4Gatj8cgmmRQ4158YM3F2DQFTC1Hw) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1273ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 0.5156ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 0.5156ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 1.1149ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.6244ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 1.1149ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.6244ms 200 text/html; charset=utf-8
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/.well-known/openid-configuration  
+infoinfo: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      Policy execution successful.
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+warn: IdentityServer4.Hosting.CorsPolicyProvider[0]
+      CorsPolicyService did not allow origin: https://localhost:4200
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.2186ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.2186ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=1f8075562d744b5b99267cdde1fa0096&nonce=8d3b61a788924d23932d67188cd3a08e  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/connect/authorize?client_id=phsom-web-client&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Fsignin-oidc&response_type=id_token&scope=openid%20profile%20roles&state=1f8075562d744b5b99267cdde1fa0096&nonce=8d3b61a788924d23932d67188cd3a08e  
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+info: IdentityServer4.Hosting.IdentityServerMiddleware[0]
+      Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1f8075562d744b5b99267cdde1fa0096",
+          "nonce": "8d3b61a788924d23932d67188cd3a08e"
+        }
+      }
+fail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+fail: IdentityServer4.Validation.AuthorizeRequestValidator[0]
+      Invalid redirect_uri: https://localhost:4200/signin-oidc
+{
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1f8075562d744b5b99267cdde1fa0096",
+          "nonce": "8d3b61a788924d23932d67188cd3a08e"
+        }
+      }
+fail: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      Request validation failed
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1f8075562d744b5b99267cdde1fa0096",
+          "nonce": "8d3b61a788924d23932d67188cd3a08e"
+        }
+      }
+info: IdentityServer4.Endpoints.AuthorizeEndpoint[0]
+      {
+        "ClientId": "phsom-web-client",
+        "ClientName": "phsom-web-client",
+        "AllowedRedirectUris": [
+          "https://localhost:4201/signin-oidc"
+        ],
+        "SubjectId": "anonymous",
+        "RequestedScopes": "",
+        "Raw": {
+          "client_id": "phsom-web-client",
+          "redirect_uri": "https://localhost:4200/signin-oidc",
+          "response_type": "id_token",
+          "scope": "openid profile roles",
+          "state": "1f8075562d744b5b99267cdde1fa0096",
+          "nonce": "8d3b61a788924d23932d67188cd3a08e"
+        }
+      }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8272ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8272ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6_-gmSLgb9R2vBaHMTk1kUk3spxW4SP-PawLfawW2FxEdtHKOY1ORipJj-gRO6sMOcuP4ZlN2RGrWK1dKRooX-ldXjw_mH6b5iiWwYV7fj73OqEjOnW1cbVE1apnrVYyMkQDWb8NiP5KQa5rDUoCXyJ9qFV0OlZ-Wsy4sIqPlo7TsSLPGVDUl2MweUaqb4ZazZ2rztvTP06FrGuiN8lt1tTFqml4HprNHf8FZtnPTg0e_Vqmkx9U5hHc0i5WF-RpdY8vsXDVU_928PNiuQvCFWsxOPOyIypghzufphIvTu4BNA  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44352/home/error?errorId=CfDJ8Oyc7tcWDLtHvp8emdmz6_-gmSLgb9R2vBaHMTk1kUk3spxW4SP-PawLfawW2FxEdtHKOY1ORipJj-gRO6sMOcuP4ZlN2RGrWK1dKRooX-ldXjw_mH6b5iiWwYV7fj73OqEjOnW1cbVE1apnrVYyMkQDWb8NiP5KQa5rDUoCXyJ9qFV0OlZ-Wsy4sIqPlo7TsSLPGVDUl2MweUaqb4ZazZ2rztvTP06FrGuiN8lt1tTFqml4HprNHf8FZtnPTg0e_Vqmkx9U5hHc0i5WF-RpdY8vsXDVU_928PNiuQvCFWsxOPOyIypghzufphIvTu4BNA  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "Error", controller = "Home"}. Executing action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_-gmSLgb9R2vBaHMTk1kUk3spxW4SP-PawLfawW2FxEdtHKOY1ORipJj-gRO6sMOcuP4ZlN2RGrWK1dKRooX-ldXjw_mH6b5iiWwYV7fj73OqEjOnW1cbVE1apnrVYyMkQDWb8NiP5KQa5rDUoCXyJ9qFV0OlZ-Wsy4sIqPlo7TsSLPGVDUl2MweUaqb4ZazZ2rztvTP06FrGuiN8lt1tTFqml4HprNHf8FZtnPTg0e_Vqmkx9U5hHc0i5WF-RpdY8vsXDVU_928PNiuQvCFWsxOPOyIypghzufphIvTu4BNA) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1257ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) with arguments (CfDJ8Oyc7tcWDLtHvp8emdmz6_-gmSLgb9R2vBaHMTk1kUk3spxW4SP-PawLfawW2FxEdtHKOY1ORipJj-gRO6sMOcuP4ZlN2RGrWK1dKRooX-ldXjw_mH6b5iiWwYV7fj73OqEjOnW1cbVE1apnrVYyMkQDWb8NiP5KQa5rDUoCXyJ9qFV0OlZ-Wsy4sIqPlo7TsSLPGVDUl2MweUaqb4ZazZ2rztvTP06FrGuiN8lt1tTFqml4HprNHf8FZtnPTg0e_Vqmkx9U5hHc0i5WF-RpdY8vsXDVU_928PNiuQvCFWsxOPOyIypghzufphIvTu4BNA) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1257ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Error.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 0.3474ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 0.7156ms
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Error executed in 0.3474ms.
+infoinfo: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.1789ms 200 text/html; charset=utf-8
+: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action IdentityServer4.Quickstart.UI.HomeController.Error (Phsom.Idp) in 0.7156ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.1789ms 200 text/html; charset=utf-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
